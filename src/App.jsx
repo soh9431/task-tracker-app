@@ -18,6 +18,7 @@ function App() {
 
   return (
     <div className="main">
+      <h2>Task Tracker App</h2>
       <div className="tasks">
         {taskList.map((task, ind) => {
           return (
